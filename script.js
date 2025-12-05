@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     {
       title: 'Connecta',
       image: 'image 4.png',
-      tech: ['Individual Project', 'Chat Platform', 'Real-time', 'WebSocket'],
+      tech: ['Individual Project', 'Chat Platform', 'Real-time', 'WebSocket', 'Mongo DB']
       description: 'A real-time chat platform with modern UI and seamless messaging experience.',
       website: 'https://connecta-uxww.onrender.com/',
       source: 'https://github.com/SHAR102938/Connecta'
@@ -185,4 +185,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
   setInterval(updateRole, 2500); // Change role every 2.5 seconds
   updateRole(); // Initial call
+
 });
